@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  head{
+    background: #fff;
+  }
+  
+  body {
+    background: #deb6b6;
+    color: #621313;
+    min-height: 100vh;
+  }
+  
+  button {
+    cursor: pointer;
+  }

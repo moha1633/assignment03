@@ -1,0 +1,42 @@
+.task{
+    width: 100%;
+    height: 100%;
+    background: #131313;
+    border: 1px soli #333;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+
+}
+.task p{
+    font-size: 14px;
+    line-height: 19px;
+    color: #f2f2f2;
+    margin-right: auto;
+
+}
+p.textcompleted{
+    color: #808080;
+    text-decoration: line-through;
+}
+
+.checkContainer {
+    width: 18px;
+    height: 18px;
+    background: none;
+    border: none;
+}
+.checkContainer svg {
+    width: 100%;
+    height:100%;
+    color: #5E60CE;
+}
+.deleteButton {
+    background: none;
+    border: none;
+    color: #808080;
+
+}
