@@ -18,12 +18,12 @@
     gap: 8px;
 }
 .textpurple{
-    color: #53547f;
+    color: #070acd;
 }
 
 .header span {
     background: rgba(196, 29, 29, 0.2);
-    color:#FFF;
+    color:rgb(207, 32, 32);
     padding: 3PX 9PX;
     border-radius: 999PX;
     font-size: 12PX;

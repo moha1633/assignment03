@@ -1,5 +1,5 @@
 .header {
-    background: #2c12c1;
+    background: #0a5d5a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
     height: 100%;
     flex: 1;
     color: #fff;
-    background: #bb4d4d;
+    background: #f0dddd;
     border: 1px solid #0D0D0D;
     border-radius: 8px;
     padding: 0 16px;
@@ -30,7 +30,7 @@
   }
   
   .newTaskForm input::placeholder {
-    color: #808080;
+    color: #a13333;
   }
   
   .newTaskForm button {
