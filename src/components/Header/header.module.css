@@ -21,8 +21,8 @@
   .newTaskForm input {
     height: 100%;
     flex: 1;
-    color: #fff;
-    background: #f0dddd;
+    color: rgb(255, 254, 254);
+    background: #100d0d;
     border: 1px solid #0D0D0D;
     border-radius: 8px;
     padding: 0 16px;

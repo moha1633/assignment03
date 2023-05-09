@@ -6,9 +6,12 @@ export function Tasks({tasks, onDelete, onComplete}) {
     const CompletedTasks= tasks.filter(task => task.iscompleted).length;
     
     return(
+      
         <section className={styles.tasks}>
-            <header className={styles.header}>
+           
 
+            <header className={styles.header}>
+           <div></div>
                 <div>
                     <p>Created tasks</p>
                     <span>{taskQuantity}</span>

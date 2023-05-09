@@ -7,11 +7,15 @@ import {AiOutlinePlusCircle} from 'react-icons/ai';
 export function Header({ handleAddTask }) {
     const [title, setTitle] = useState('');
   
+
     function handleSubmit(event) {
       event.preventDefault();
   
       handleAddTask(title);
       setTitle('');
+
+     
+    
     }
 
     function onChangeTitle(event){
@@ -27,6 +31,6 @@ export function Header({ handleAddTask }) {
             </form>
         </header>
 
-    )
+    );
 }
 
