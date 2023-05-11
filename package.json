@@ -1,9 +1,12 @@
 {
+  "homepage": "http://moha1633.github.io/assignment03",
   "name": "assignment03",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "vite build && gh-pages -d dist",
+
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
